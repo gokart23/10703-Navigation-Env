@@ -57,6 +57,7 @@ env = gym.make('NEL-render-v0')
 
 # The created environment can then be used as any other 
 # OpenAI gym environment. For example:
+env.reset()
 for t in range(10000):
   # Render the current environment.
   env.render()
